@@ -1,0 +1,149 @@
+html{
+    box-sizing: border-box;
+    background-color: #226007;
+    display: flex;
+    flex-direction: column;
+}
+*{
+    box-sizing: inherit;
+    /* border: solid red; */
+}
+
+/* i say this is the title or uhh */
+
+.titleContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 100px;
+}
+
+.logo{
+    width: 2em;
+    height: 2em;
+    margin: 5px;
+    
+}
+
+.logoDiv{
+    border-right: solid white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.logoName{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5em;
+}
+
+.logoContent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.agriFlex{
+    margin: 0em;
+    color: white;
+}
+
+.logoP{
+    margin-top: -5px;
+    color: #00BF63;
+}
+
+.other{
+    /* border: solid red; */
+    display: flex;
+    flex-direction: row;
+    padding-right: 400px;
+}
+
+.p{
+    margin: 10px;
+}
+
+.home.p{
+    color: #D94645;
+}
+
+.about,
+.portfolio{
+    color: white;
+}
+
+.hugeAssAsterisk{
+    color: #EB4A4A;
+    padding: 0px;
+    width: 200px;
+    
+}
+
+.asterisk{
+    font-size: 200px;
+    margin-top: -70px;
+    margin-left: -70px;
+    color: #EB4A4A;
+}
+
+.searchBar{
+    width: 350px;
+    height: 65px;
+    border: solid red 2px;
+    background-color: #226007;
+    margin-top: -7px;
+    font-size: 20px;
+    color: white;
+}
+
+.searchBar::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.mediaLinks{
+    display: flex;
+    flex-direction: row;
+}
+
+.img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-top: -5px;
+}
+
+.fb{
+    margin-left: 30px;
+}
+
+/* main content (probably idk) */
+
+.contentContainer{
+    margin-left: 85px;
+    margin-top: 50px;
+}
+
+
+.wonders{
+    display: inline-block;
+    font-size: 50px;
+    
+}
+
+.wonders.p{
+    z-index: 2;
+    position: relative;
+}
+
+.imgWonder{
+    margin-left: -50px;
+    z-index: 1;
+}
+
+.agri.p{
+    margin-top: 500px;
+    display: flex;
+}
