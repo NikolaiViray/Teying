@@ -6,7 +6,7 @@ html{
 }
 *{
     box-sizing: inherit;
-    /* border: solid red; */
+    border: solid red;
 }
 
 /* i say this is the title or uhh */
@@ -17,6 +17,7 @@ html{
     margin-top: 50px;
     margin-left: 50px;
     height: 100px;
+    padding: 30px;
 }
 
 .logo{
@@ -136,14 +137,20 @@ html{
 .wonders.p{
     z-index: 2;
     position: relative;
+    margin-top: -500px;
+
 }
 
 .imgWonder{
     margin-left: -50px;
     z-index: 1;
+    width: 1000px;
+    margin-top: 70px;
 }
 
 .agri.p{
-    margin-top: 500px;
-    display: flex;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -100px;
+    
 }
